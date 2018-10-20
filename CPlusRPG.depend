@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1540047159 source:c:\users\leon\documents\github\cplusrpg\main.cpp
+	<iostream>
+	<string.h>
+	<ctime>
+	<windows.h>
+
