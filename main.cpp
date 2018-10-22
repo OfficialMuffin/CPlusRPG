@@ -49,49 +49,65 @@ int main()
     //Starting Spawn Point
     const int ARRAY_SIZE = 3;
     string initSpawn[ARRAY_SIZE] = {"Forest", "Town", "City"};
-    //Choose Random Spawn From The Array.
-    cout << "You awaken in a small shack located somewhere in the " << "INSERT RAND()" << endl;
-    playerCoins = 2.50;
-    cout << "You now have " << playerCoins << "!" << endl;
+    //Let user choose spawn from the array.
+    cout << initSpawn << endl;
+    int spawnChoice;
+    cout << "Where would you like to spawn?: " << endl;
+    cout << "1) Forest" << endl;
+    cout << "2) Town" << endl;
+    cout << "3) City" << endl;
+    cin >> spawnChoice;
+    cout << "You awaken in a small shack located somewhere in the " << spawnChoice << endl;
 
     //Choose story line based on the random option given.
-    /*
-    switch(s) {
-        case "Forest" :
+
+    switch(spawnChoice) {
+        case 1 :
             cout << "*You see a silhouette hiding behind the tree*" << endl;
             n1.setName("NPC John");
             Sleep(1000);
             cout << "*You have been met by " << n1.getName() << "*" << endl;
             Sleep(1500);
-            string NPCgreet;
-            cout << "Will you shout to ask or leave him be?: (Type ask or leave)" << endl;
+            int NPCgreet;
+            cout << "Will you shout to ask or leave him be?: (Type 1 to ask or 2 to leave)" << endl;
             cin >> NPCgreet;
 
             switch (NPCgreet) {
-                case "ask" :
+                case 1 :
                     cout << "*The silhouette slowly tiptoes towards you, its a small man*" << endl;
                     Sleep(1000);
-                    cout << "*The mysterious man speaks* I thought you are one of them..."
+                    cout << "*The mysterious man speaks* I thought you are one of them..." << endl;
                     Sleep(1000);
-                    cout << "*You reply* One of who?"
+                    cout << "*You reply* One of who?" << endl;
                     Sleep(1000);
                     cout << "*He sighs* You're new arn't you...Take this and leave... Its not safe here!" << endl;
+                    Sleep(500);
                     playerCoins = 2.50;
                     cout << "You now have " << playerCoins << "!" << endl;
+
+                case 2 :
+                    cout << "*You leave him be and continue on your way.*" << endl;
+
+                default :
+                    return 0;
+
+
 
 
 
 
             }
 
-        case "Town" :
+        case 2 :
             cout << "You hear a car park up on the drive in the semi-detached house close by." << endl;
-            cout << "You hear the footsteps of someone approaching your shack. They then knock on the door of your shack"
+            cout << "You hear the footsteps of someone approaching your shack. They then knock on the door of your shack" << endl;
             n2.setName("NPC Dave");
             Sleep(1000);
             cout << "You have been met by " << n2.getName() << endl;
+
+        default :
+            return 0;
     }
-    */
 
     return 0;
 }
