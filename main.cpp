@@ -90,10 +90,12 @@ int main()
                     playerXP = 0.5;
                     cout << "You now have " << playerCoins << " Coins!" << endl;
                     cout << "You now have " << playerXP << " XP!" << endl;
+                    break;
 
 
                 case 2 :
                     cout << "*You leave him be and continue on your way.*" << endl;
+                    break;
 
                 default :
                     return 0;
@@ -101,13 +103,23 @@ int main()
 
         case 2 :
             cout << "You hear a car park up on the drive in the semi-detached house close by." << endl;
+            Sleep(1000);
             cout << "You hear the footsteps of someone approaching your shack. They then knock on the door of your shack" << endl;
             n2.setName("NPC Dave");
             Sleep(1000);
             cout << "You have been met by " << n2.getName() << endl;
+            break;
 
         default :
             return 0;
+
+
+        case 3 :
+            cout << "*You are walking on the pavement and suddenly a car stops next to you and a window winds down slowly*" << endl;
+            Sleep(1000);
+            cout << "*A guy sticks his head out of the window*"
+
+
     }
 
     return 0;
