@@ -3,31 +3,11 @@
 #include <ctime>
 #include <windows.h>
 #include <iomanip>
+
+#include "player.h"
+#include "npc.h"
 using namespace std;
 
-//Helps with storing player's names
-class Player {
-    string name;
-public:
-    string getName(){
-        return name;
-    }
-    void setName(string newName) {
-        name = newName;
-    }
-};
-
-//Store NPC names
-class NPC {
-    string name;
-public:
-    string getName(){
-        return name;
-    }
-    void setName(string newName) {
-        name = newName;
-    }
-};
 
 int main()
 {
@@ -117,7 +97,7 @@ int main()
         case 3 :
             cout << "*You are walking on the pavement and suddenly a car stops next to you and a window winds down slowly*" << endl;
             Sleep(1000);
-            cout << "*A guy sticks his head out of the window*"
+            cout << "*A guy sticks his head out of the window*" << endl;
 
 
     }
