@@ -5,11 +5,15 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
-## 0.0.3  - 2018-10-29
+## 0.0.4 - 2019-10-10
+### Added
+- include guard
+
+## 0.0.3 - 2018-10-29
 ### Removed
 - Removed duplicate code as the save file was corrupted and was committed.
 
-### Changed 
+### Changed
 - Changed comments into its correct syntax
 - Meet NPC when it approaches you
 
@@ -27,6 +31,6 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 - Main Game
 - Classes for NPC's and Players as there will be more in game and hard to keep track of.
 
-### Changed 
+### Changed
 - Random spawn point to a user chosen spawn
 
