@@ -16,8 +16,7 @@ int main()
     int playerXP = 0;
     float playerCoins;
     Player p1;
-    NPC n1;
-    NPC n2;
+    NPC n1, n2;
 
     /** Welcome Message w/ User's Name */
     cout << "What name would you like to use in this game?: " << endl;

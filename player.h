@@ -1,5 +1,7 @@
-#include <iostream>
-#include <string.h>
+#ifndef _PLAYER_H_
+#define _PLAYER_H_
+
+#include <string>
 using namespace std;
 
 //Helps with storing player's names
@@ -13,3 +15,5 @@ public:
         name = newName;
     }
 };
+
+#endif // _PLAYER_H_
