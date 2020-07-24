@@ -1,9 +1,13 @@
+#ifdef _WIN32
+#include <Windows.h>
+#else
+#include <unistd.h>
+#endif // _WIN32
+
 #include <iostream>
 #include <string.h>
 #include <ctime>
-#include <windows.h>
 #include <iomanip>
-
 #include "player.h"
 #include "npc.h"
 using namespace std;
@@ -11,7 +15,7 @@ using namespace std;
 
 int main()
 {
-    /**< Initialise Variables */
+    /** Initialise Variables */
     string name;
     int playerXP = 0;
     float playerCoins;
@@ -23,7 +27,7 @@ int main()
     cin >> name;
     p1.setName(name);
     cout << "Welcome, " << p1.getName() << "!" << endl;
-    Sleep(1000);
+    sleep(10);
 
     /** Starting Spawn Point */
     const int ARRAY_SIZE = 3;
@@ -44,9 +48,9 @@ int main()
     switch(spawnChoice) {
         case 1 :
             cout << "*You awaken in a small shack and step outside*" << endl;
-            Sleep(1000);
+            sleep(1);
             cout << "*You see a silhouette hiding behind the tree*" << endl;
-            Sleep(1500);
+            sleep(1.5);
             int NPCgreet;
             cout << "Will you shout to ask or leave him be?: (Type 1 to ask or 2 to leave)" << endl;
             cin >> NPCgreet;
@@ -54,17 +58,17 @@ int main()
             switch (NPCgreet) {
                 case 1 :
                     cout << "*The silhouette slowly tiptoes towards you, its a small man*" << endl;
-                    Sleep(1000);
+                    sleep(1);
                     n1.setName("NPC John");
-                    Sleep(1000);
+                    sleep(1);
                     cout << "*You have been met by " << n1.getName() << "*" << endl;
-                    Sleep(1500);
+                    sleep(1.5);
                     cout << "*The mysterious man speaks* I thought you are one of them..." << endl;
-                    Sleep(1000);
+                    sleep(1);
                     cout << "*You reply* One of who?" << endl;
-                    Sleep(1000);
+                    sleep(1);
                     cout << "*He sighs* You're new arn't you...Take this and leave... Its not safe here!" << endl;
-                    Sleep(500);
+                    sleep(2);
                     playerCoins = 2.50;
                     playerXP = 0.5;
                     cout << "You now have " << playerCoins << " Coins!" << endl;
@@ -82,10 +86,10 @@ int main()
 
         case 2 :
             cout << "You hear a car park up on the drive in the semi-detached house close by." << endl;
-            Sleep(1000);
+            sleep(1);
             cout << "You hear the footsteps of someone approaching your shack. They then knock on the door of your shack" << endl;
             n2.setName("NPC Dave");
-            Sleep(1000);
+            sleep(1);
             cout << "You have been met by " << n2.getName() << endl;
             break;
 
@@ -95,7 +99,7 @@ int main()
 
         case 3 :
             cout << "*You are walking on the pavement and suddenly a car stops next to you and a window winds down slowly*" << endl;
-            Sleep(1000);
+            sleep(1);
             cout << "*A guy sticks his head out of the window*" << endl;
 
 
