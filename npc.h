@@ -6,14 +6,15 @@ using namespace std;
 
 //Store NPC names
 class NPC {
-    string name;
-public:
-    string getName(){
-        return name;
-    }
-    void setName(string newName) {
-        name = newName;
-    }
+    public:
+        string getName(){
+            return name;
+        }
+        void setName(string newName) {
+            name = newName;
+        }
+    private:
+        string name;
 };
 
 #endif // _NPC_H_

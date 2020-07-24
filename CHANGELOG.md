@@ -5,6 +5,17 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
+## 0.0.6 - 2020-06-24
+### Changed
+- XP and Coin are now in one player header file
+- Constant ARRAY_SIZE for spawn points, may increase the amount in the future. 
+
+### Fixed
+- Console no longer utputs a memory address when user name input. 
+
+### Known Issues
+- After user has been to the Forest, game will continue to next spawn location.
+
 ## 0.0.5 - 2020-06-24
 ### Changed
 - Detect if using windows or linux to use sleep function
