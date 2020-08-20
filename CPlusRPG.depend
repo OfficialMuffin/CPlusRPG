@@ -21,3 +21,47 @@
 1595601691 /home/lw/Desktop/GitHub/CPlusRPG/npc.h
 	<string>
 
+1597954115 source:c:\users\whela\documents\github\cplusrpg\main.cpp
+	<Windows.h>
+	<unistd.h>
+	<iostream>
+	<string.h>
+	<ctime>
+	<iomanip>
+	"Player.h"
+	"NPC.h"
+	"Bank.h"
+
+1597949682 c:\users\whela\documents\github\cplusrpg\player.h
+
+1597949492 c:\users\whela\documents\github\cplusrpg\npc.h
+
+1597949666 c:\users\whela\documents\github\cplusrpg\bank.h
+	<string>
+
+1597949653 source:c:\users\whela\documents\github\cplusrpg\src\bankstatus.cpp
+	"bankStatus.h"
+
+1597950002 c:\users\whela\documents\github\cplusrpg\include\bankstatus.h
+	<string>
+
+1597949368 source:c:\users\whela\documents\github\cplusrpg\src\npc.cpp
+	"NPC.h"
+
+1597949695 c:\users\whela\documents\github\cplusrpg\include\npc.h
+	<string>
+
+1597949840 source:c:\users\whela\documents\github\cplusrpg\src\player.cpp
+	"Player.h"
+
+1597951878 c:\users\whela\documents\github\cplusrpg\include\player.h
+	<string>
+
+1597952501 source:c:\users\whela\documents\github\cplusrpg\src\bank.cpp
+	"Bank.h"
+	<iostream>
+	<string>
+
+1597952017 c:\users\whela\documents\github\cplusrpg\include\bank.h
+	<string>
+

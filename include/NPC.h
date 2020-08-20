@@ -5,16 +5,20 @@
 using namespace std;
 
 //Store NPC names
-class NPC {
+class NPC
+{
+    private:
+        string name;
+
     public:
+        NPC();
         string getName(){
             return name;
         }
         void setName(string newName) {
             name = newName;
         }
-    private:
-        string name;
+
 };
 
 #endif // _NPC_H_

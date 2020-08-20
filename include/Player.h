@@ -7,6 +7,7 @@ using namespace std;
 //Helps with storing player's names
 class Player {
     public:
+        Player();
         string getName(){
             return name;
         }

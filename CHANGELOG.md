@@ -5,13 +5,21 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
+## 0.0.7 - 2020-08-20
+### Changed
+- Added directories and used C++ file structure
+### Added
+- Bank for player coins
+### Known Issues
+- Program exits after asking for user input
+
 ## 0.0.6 - 2020-06-24
 ### Changed
 - XP and Coin are now in one player header file
-- Constant ARRAY_SIZE for spawn points, may increase the amount in the future. 
+- Constant ARRAY_SIZE for spawn points, may increase the amount in the future.
 
 ### Fixed
-- Console no longer utputs a memory address when user name input. 
+- Console no longer utputs a memory address when user name input.
 
 ### Known Issues
 - After user has been to the Forest, game will continue to next spawn location.
