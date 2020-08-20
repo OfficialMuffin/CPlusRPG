@@ -13,6 +13,7 @@
 				<Option compiler="gcc" />
 				<Compiler>
 					<Add option="-g" />
+					<Add directory="include" />
 				</Compiler>
 			</Target>
 			<Target title="Release">
@@ -22,6 +23,7 @@
 				<Option compiler="gcc" />
 				<Compiler>
 					<Add option="-O2" />
+					<Add directory="include" />
 				</Compiler>
 				<Linker>
 					<Add option="-s" />
@@ -33,13 +35,14 @@
 			<Add option="-fexceptions" />
 		</Compiler>
 		<Unit filename="CHANGELOG.md" />
+		<Unit filename="include/Bank.h" />
+		<Unit filename="include/NPC.h" />
+		<Unit filename="include/Player.h" />
 		<Unit filename="main.cpp" />
-		<Unit filename="npc.h" />
-		<Unit filename="player.h" />
+		<Unit filename="src/Bank.cpp" />
+		<Unit filename="src/NPC.cpp" />
+		<Unit filename="src/Player.cpp" />
 		<Extensions>
-			<code_completion />
-			<envvars />
-			<debugger />
 			<lib_finder disable_auto="1" />
 		</Extensions>
 	</Project>

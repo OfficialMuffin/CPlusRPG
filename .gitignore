@@ -35,3 +35,9 @@
 *.layout
 CPlusRPG.depend
 CPlusRPG.layout
+*.cbp
+*.layout
+CPlusRPG.layout
+*.layout
+CPlusRPG.cbp
+*.cbp
