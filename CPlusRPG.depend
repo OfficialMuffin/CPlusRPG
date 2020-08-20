@@ -5,3 +5,19 @@
 	<ctime>
 	<windows.h>
 
+1595604843 source:/home/lw/Desktop/GitHub/CPlusRPG/main.cpp
+	<Windows.h>
+	<unistd.h>
+	<iostream>
+	<string.h>
+	<ctime>
+	<iomanip>
+	"player.h"
+	"npc.h"
+
+1595604808 /home/lw/Desktop/GitHub/CPlusRPG/player.h
+	<string>
+
+1595601691 /home/lw/Desktop/GitHub/CPlusRPG/npc.h
+	<string>
+

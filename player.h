@@ -6,14 +6,34 @@ using namespace std;
 
 //Helps with storing player's names
 class Player {
-    string name;
-public:
-    string getName(){
-        return name;
-    }
-    void setName(string newName) {
-        name = newName;
-    }
+    public:
+        string getName(){
+            return name;
+        }
+
+        double getXp(){
+            return xp;
+        }
+
+        float getCoin(){
+            return coin;
+        }
+
+        void setName(string newName) {
+            name = newName;
+        }
+
+        void setXp(double newXp) {
+            xp = newXp;
+        }
+
+        void setCoin(float newCoin) {
+            coin = newCoin;
+        }
+    private:
+        string name;
+        double xp;
+        float coin;
 };
 
 #endif // _PLAYER_H_
