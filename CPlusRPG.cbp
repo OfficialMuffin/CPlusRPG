@@ -32,7 +32,10 @@
 			<Add option="-Wall" />
 			<Add option="-fexceptions" />
 		</Compiler>
+		<Unit filename="CHANGELOG.md" />
 		<Unit filename="main.cpp" />
+		<Unit filename="npc.h" />
+		<Unit filename="player.h" />
 		<Extensions>
 			<code_completion />
 			<envvars />
